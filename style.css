@@ -104,11 +104,14 @@ header h1 {
   color: #cecece;
 }
 
+/* Page */
+
+
 /* Header */
 
 .header-wrapper {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 
   padding: 310px 100px;
 }
@@ -228,18 +231,18 @@ p {
   display: block;
   margin-left: 100px;
 
-  height: 280px;
+  height: auto;
   width: 450px;
 
   margin: 0 60px;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
 }
 
 
 /* Social */
 
 .social {
-  margin-top: 30px;
+  margin: 10px 0 40px 0;
   padding: 100px;
 
   display: flex;
